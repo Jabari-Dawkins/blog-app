@@ -1,0 +1,4 @@
+recursive-include blogapp/public *
+include blogapp/public/favicon.ico
+recursive-include blogapp/i18n *
+recursive-include blogapp/templates *

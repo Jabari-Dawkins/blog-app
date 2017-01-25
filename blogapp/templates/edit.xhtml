@@ -1,0 +1,32 @@
+<html py:extends="master.xhtml" py:strip="True">
+    <head py:block="head" py:strip="True">
+        <title py:block="master_title">Editing: ${post.title}</title>
+    </head>
+
+    <body py:block="body" py:strip="True">
+        <div class="main_content">
+            <div style="float:right; width: 10em;"> Editing
+                <span py:replace="post.title">Post Title Goes Here</span>
+                <br />
+                You can return to the <a href="/">FrontPage</a>.
+            </div>
+            <div>
+                <form action="/save" method="post">
+                    <input type="hidden" name="id" value="${post.id}" />
+                    <div>
+                        <label for="title">Post Title</label>
+                        <input type="text" value="${post.title}" name="title"/>
+                    </div>
+                    <div>
+                        <label for="body">Post Body</label>
+                        <textarea name="body" py:content="post.body" rows="10" cols="60" />
+                    </div>
+                    <div>
+                        <input type="submit" name="submit" value="Save" />
+                        <input type="button" name="cancel" value="Cancel" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

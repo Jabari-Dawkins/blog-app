@@ -1,0 +1,3 @@
+Turbogears setup notes:
+    * Use "development.ini" to configure database connection
+    * Try changing the "<appname>/model/model.py.template" to use UUIDs instead of Integers before running "gearbox setup-app"
