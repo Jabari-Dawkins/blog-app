@@ -25,6 +25,7 @@ blogapp/lib/base.py
 blogapp/lib/helpers.py
 blogapp/model/__init__.py
 blogapp/model/auth.py
+blogapp/model/post.py
 blogapp/public/favicon.ico
 blogapp/public/css/bootstrap.min.css
 blogapp/public/css/style.css
@@ -39,11 +40,14 @@ blogapp/public/javascript/bootstrap.min.js
 blogapp/templates/__init__.py
 blogapp/templates/about.xhtml
 blogapp/templates/data.xhtml
+blogapp/templates/edit.xhtml
 blogapp/templates/environ.xhtml
 blogapp/templates/error.xhtml
+blogapp/templates/home.xhtml
 blogapp/templates/index.xhtml
 blogapp/templates/login.xhtml
 blogapp/templates/master.xhtml
+blogapp/templates/post.xhtml
 blogapp/templates/template.xhtml.template_tmpl
 blogapp/templates/__pycache__/__init__.cpython-35.pyc
 blogapp/tests/__init__.py

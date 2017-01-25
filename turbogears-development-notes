@@ -1,0 +1,11 @@
+Turbogears Notes:
+
+Useful Sites:
+  -Turbogears Apache Deployment Docs: https://turbogears.readthedocs.io/en/rtfd2.2.2/main/Deployment/Apache.html
+  -Turbogears Apache Mod-WSGI Docs: https://turbogears.readthedocs.io/en/rtfd2.2.2/main/Deployment/ModWSGI.html#apache-mod-wsgi
+  -Turbogears Virtualenv Docs: https://turbogears.readthedocs.io/en/rtfd2.2.2/modules/thirdparty/virtualenv.html#virtualenv
+  -Turbogears Kajiki Templating Docs: http://turbogears.readthedocs.io/en/latest/turbogears/kajiki-xml-templates.html#kajiki-language
+  -SQLAlchemy ORM Tutorial: http://docs.sqlalchemy.org/en/latest/orm/tutorial.html
+  -Turbogears CRUD Template Docs: http://turbogears.org/1.0/docs/CRUDTemplate.html
+  -Python 3 Reference: https://docs.python.org/3/
+  -Heroku Deployment Tutorial: https://devcenter.heroku.com/articles/getting-started-with-python#deploy-the-app
